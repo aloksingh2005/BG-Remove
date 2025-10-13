@@ -1,0 +1,5 @@
+rembg
+pillow
+customtkinter
+onnxruntime
+# pip install -r requirements.txt
