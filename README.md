@@ -4,15 +4,16 @@
 
 ---
 
-## 📥 **Get Started Now**
+## � **GitHub Repository – START HERE!**
 
-### **🔗 GitHub Repository:**
-[![GitHub](https://img.shields.io/badge/GitHub-BG--Remove-blue?logo=github&style=for-the-badge)](https://github.com/aloksingh2005/BG-Remove)
+### **📥 DOWNLOAD & SETUP:**
 
-**Direct Links:**
-- 📦 **[Download ZIP](https://github.com/aloksingh2005/BG-Remove/archive/refs/heads/main.zip)** – Ready to use (extract and follow setup guide below)
-- 🌐 **[View on GitHub](https://github.com/aloksingh2005/BG-Remove)** – See code, issues, and updates
-- ⭐ **Star the repo** if you find it useful!
+| **OPTION 1: Download ZIP** | **OPTION 2: View on GitHub** |
+|---|---|
+| **👉 [CLICK HERE TO DOWNLOAD](https://github.com/aloksingh2005/BG-Remove/archive/refs/heads/main.zip)** | **👉 [VISIT REPOSITORY](https://github.com/aloksingh2005/BG-Remove)** |
+| Extract ZIP and follow setup guide below | See code, contribute, track updates |
+
+**Repository Link:** `https://github.com/aloksingh2005/BG-Remove`
 
 ---
 
@@ -83,146 +84,137 @@ python app.py
 
 ---
 
-## 📖 Detailed Setup Instructions
+## 📖 Setup Instructions – Choose Your Path
 
-Choose your path below:
+<table>
+<tr>
+<td width="50%">
 
----
+### **PATH A: Beginner** ⭐
+*Zero Python experience? Start here.*
 
-### **PATH A: Complete Beginner Setup** ⭐
-*No experience with Python or command line? Follow this step-by-step.*
+#### **1️⃣ Install Python**
+- Go to [python.org](https://www.python.org/downloads/)
+- Download Python 3.11 or 3.12
+- ⚠️ Check "Add Python to PATH"
+- Click Install
 
-#### **Step 1: Install Python (If Not Already Installed)**
-
-1. Go to [python.org](https://www.python.org/downloads/)
-2. Download **Python 3.11 or 3.12** (the latest versions)
-3. Run the installer
-   - ⚠️ **IMPORTANT:** Check **"Add Python to PATH"** during installation
-   - Click "Install Now"
-4. Wait for completion (2–3 minutes)
-
-**Verify Python is installed:**
-- Press `Win + R` on your keyboard
-- Type `powershell` and press Enter (a blue terminal opens)
-- Paste this and press Enter:
-  ```powershell
-  python --version
-  ```
-- You should see: `Python 3.11.x` or `Python 3.12.x`
-
-> **If you see "python is not recognized":** Python isn't in your PATH. Reinstall and make sure to check "Add Python to PATH."
+**Verify:**
+```powershell
+python --version
+```
+Should show: `Python 3.11.x` ✅
 
 ---
 
-#### **Step 2: Download & Navigate to Project**
-
-1. **Download this project:**
-   - Click the green "Code" button on GitHub → "Download ZIP"
-   - OR clone it if you know Git
-   - Extract the folder to a convenient location (e.g., Desktop or Documents)
-
-2. **Open Terminal in Project Folder:**
-   - Navigate to the extracted `BG-Remove` folder
-   - Hold `Shift` and right-click inside the folder → "Open PowerShell window here"
-   - A blue terminal should appear
-
-3. **Verify you're in the right place:**
-   - You should see your current path ends with `...BG-Remove>`
-   - You should see files: `app.py`, `requirements.txt`, `README.md`
+#### **2️⃣ Download Project**
+- Click "Download ZIP" on GitHub
+- Extract to Desktop or Documents
+- Hold Shift + Right-Click inside folder
+- Click "Open PowerShell window here"
 
 ---
 
-#### **Step 3: Create Virtual Environment** (Recommended but Optional)
-
-*A virtual environment keeps Python dependencies for this project separate from other projects.*
-
-In the PowerShell terminal, copy-paste this command and press Enter:
-
+#### **3️⃣ Create Virtual Environment**
 ```powershell
 python -m venv .venv
 ```
 
-**Expected output:**
-```
-(nothing—it just creates a folder named .venv)
-```
-
 ---
 
-#### **Step 4: Activate Virtual Environment**
-
-Still in PowerShell, run:
-
+#### **4️⃣ Activate Virtual Environment**
 ```powershell
 .\.venv\Scripts\Activate.ps1
 ```
+Should show: `(.venv)>` ✅
 
-**Expected output:**
+**Got error?** Run this first:
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
-(.venv) C:\Users\YourName\...\BG-Remove>
-```
-
-Notice the `(.venv)` at the beginning—that means it's activated! ✅
-
-> **If you get an error about "execution policies":**
-> ```powershell
-> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-> ```
-> Then run the activation command again.
 
 ---
 
-#### **Step 5: Install Dependencies**
-
-Still in the terminal (with `.venv` activated), run:
-
+#### **5️⃣ Install Dependencies**
 ```powershell
 pip install -r requirements.txt
 ```
-
-**Expected output** *(you'll see lots of lines)*:
-```
-Collecting rembg>=0.0.51
-  Downloading rembg-0.0.51-py3-none-any.whl ...
-Collecting pillow>=9.0.0
-  Downloading Pillow-9.5.0-cp311-cp311-win_amd64.whl ...
-...
-Successfully installed rembg-0.0.51 pillow-9.5.0 customtkinter-5.0 onnxruntime-1.14.0 numba-0.56.0
-```
-
-This takes **2–5 minutes** depending on your internet speed. The first run might be slower.
+Wait 2-5 minutes...
 
 ---
 
-#### **Step 6: Run the App! 🎉**
-
-Still in the terminal, run:
-
+#### **6️⃣ Run the App! 🎉**
 ```powershell
 python app.py
 ```
+Dark window opens = Success! ✅
 
-**Expected output:**
-```
-Initializing app...
-```
+</td>
+<td width="50%">
 
-A **large window with a dark background** should appear. This is the BG-Remove app!
+### **PATH B: Developer** 🚀
+*Know Python? Quick version.*
 
----
-
-### **PATH B: Developer Quick Start**
-*You know Python, virtual environments, and want to skip hand-holding.*
+#### **Just Run:**
 
 ```powershell
-# In your project directory:
+# 1. Navigate to folder
+cd path/to/BG-Remove
+
+# 2. Setup
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
+
+# 3. Install
 pip install -r requirements.txt
+
+# 4. Run
 python app.py
 ```
 
-Done. Enjoy!
+That's it! 
+
+---
+
+#### **Building .exe?**
+
+```powershell
+# Install PyInstaller
+pip install pyinstaller
+
+# Build
+pyinstaller app.spec
+
+# Find it at: dist/app/app.exe
+```
+
+---
+
+#### **Using in Your Code?**
+
+```python
+from rembg import remove
+from PIL import Image
+
+img = Image.open("photo.jpg")
+result = remove(img)
+result.save("transparent.png")
+```
+
+---
+
+#### **Common Issues**
+
+| Issue | Fix |
+|-------|-----|
+| `python not found` | Add Python to PATH |
+| `DLL error` | `pip install onnxruntime==1.18.0` |
+| Slow start | Update Windows + restart |
+| Won't activate | Set-ExecutionPolicy... (see left) |
+
+</td>
+</tr>
+</table>
 
 ---
 
