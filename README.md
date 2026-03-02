@@ -2,6 +2,20 @@
 
 > **⚡ Remove image backgrounds in seconds using AI—completely locally on your computer. No internet required after initial setup. No images uploaded anywhere.**
 
+---
+
+## 📥 **Get Started Now**
+
+### **🔗 GitHub Repository:**
+[![GitHub](https://img.shields.io/badge/GitHub-BG--Remove-blue?logo=github&style=for-the-badge)](https://github.com/aloksingh2005/BG-Remove)
+
+**Direct Links:**
+- 📦 **[Download ZIP](https://github.com/aloksingh2005/BG-Remove/archive/refs/heads/main.zip)** – Ready to use (extract and follow setup guide below)
+- 🌐 **[View on GitHub](https://github.com/aloksingh2005/BG-Remove)** – See code, issues, and updates
+- ⭐ **Star the repo** if you find it useful!
+
+---
+
 A modern, user-friendly desktop application to remove image backgrounds instantly. Built with **Python**, **CustomTkinter** for a sleek dark UI, **Pillow** for image handling, and **rembg** (powered by U²-Net) for AI-driven background removal.
 
 **Perfect for:**
